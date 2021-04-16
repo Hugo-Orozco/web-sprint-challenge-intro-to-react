@@ -2,7 +2,23 @@
   text-align: center;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: #FFFFFF; /* #443e3e */
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: 50px auto;
+  padding: 50px;
+  width: calc(50% + (100px));
+  transition: ease-in-out 0.2s;
+  cursor: default;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.Header:hover {
+  text-shadow: 0px 0px 5px #FFFFFF;
 }
 /* write your parent styles in here for your App.js */
+.Character {
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: 0 auto;
+  padding: calc(100px - 20px) 100px;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
